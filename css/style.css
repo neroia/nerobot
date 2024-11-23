@@ -1,403 +1,94 @@
-*{
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-   
 
-}
 :root{
     --verdeescuro:#08462E;
-    --verderclaro:#19B377;
-    --roboto:font-family: 'Roboto', sans-serif;
+    --verdeclaro:#19B377;
+    --branco:#FFFFFF;
+}
+*{
+    border: none;
 }
 
-header{
-    min-height: 55px;
-    background-color:white;
-    padding: 0px 10px;
-    display: flex;
-   align-items: center;
-   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+body{
+    overflow: hidden
+}
+
+main{
+    background-color:var(--verdeescuro) ;
+    height: 100vh
     
 }
-.neroia{
-    width: 100px;
-}
-.neros{
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    margin-top:12px;
-    color: rgb(0, 0, 0);
-}
-.redessociais{
-    
+.imgf{
     width: 100%;
     display: flex;
-     align-items: center;
-     justify-content: flex-end;
-    margin-left: 10%;
-}
-.redessociaisicon{
-    width: 22px;
-    margin-left: 10px;
-    
-   
-}
-
-.baner{
-    
-    padding: 14px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.062);
-}
-
-.Impulsione{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: center;
-
-}
-.horas {
-    color: #08462E;
-    font-weight: bold; 
-    font-size: 25px;
-}
-.assistente{
-    margin-top: 31px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: var(--verderclaro);
-}
-.divbutton{
-    display: flex;
-    justify-content: center; /* Alinha o conteúdo horizontalmente */
-    align-items: center; /* Alinha o conteúdo verticalmente */
-    text-align: center; /* Alinha o texto ao centro */
-}
-.Experimente{
-    background-color: var(--verdeescuro);
-    color: white;
-    width: 54%;
-    min-height: 43px;
-    padding: 2px;
-    font-size: 16px;
-    border-radius: 13px;
-    align-items: center;
-    margin-top: 10px;
-}
-.Experimente:hover{
-    background-color:#042418
-}
-.Humanizado{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 5px;
-}
-.iphone{
-    width: 140px;
-}
-h2{
-    color: #08462E;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    margin-bottom: 11px;
-
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-.naturais{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 5px;
-}
-.smart{
-    width: 250px;
-}
-.apps{
-    margin-top: 20px;
-    display: flex;
     flex-direction: row;
-    padding: 15px;
-}
-.WhatsAppdiv{
-    background-color: #ffffff;
-    color: var(--verderclaro);
-    border: solid 1px var(--verdeescuro);
-    box-shadow: -1px 3px 4px 0px #00000085;
-    border-radius: 5px;
-    margin: 2px;
-    width: 50%;
-    min-height: 100px;
-    text-align: center;
-}
-.WhatsAppdiv h5, h3 {
-    margin: 2px;
-}
-.WhatsAppdiv p{
-    font-size: 13px;
-    color: var(--verdeescuro);
-}
-
-.areas{
-    margin: 15px;
-    text-align: center;
-}
-.card{
-    margin-top: 37px;
-    background-color: var(--verderclaro);
-    color: white;
-    height: 150px;
-    padding: 10px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    box-shadow: -6px 14px 9px 3px rgba(0, 0, 0, 0.685);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.card h3{
-    font-size: 24px;
-}
-.Beneficios{
-    margin: 5px;
 
 }
-.empresa{
-    background-color: var(--verderclaro);
-    padding: 7px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: -6px 14px 9px 3px rgba(0, 0, 0, 0.685);
-}
-
-.empresa h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.seta{
-    width: 20px;
-}
-.empresa ul{
-    list-style: disc; 
-    padding-left: 20px;
-    display: none;
-    
-}
-footer{
-    min-height: 55px;
-    background-color:white;
-    display: flex;
-   align-items: center;
-   box-shadow: -1px -2px 1px rgba(0, 0, 0, 0.322);
-}
-
-
-
-
-@media (min-width: 760px){
-
-    header{
-    min-height: 55px;
-    background-color:white;
-    padding: 0px 10px;
-    display: flex;
-   align-items: center;
-   justify-content: center;
-   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
-    
-}
-.neroia{
-    width: 110px;
-}
-.neros{
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    margin-top:12px;
-    color: rgb(0, 0, 0);
-}
-.redessociais{
-    
-    width: 10%;
-    display: flex;
-     align-items: center;
-     justify-content: flex-end;
-    margin-left: 10%;
-}
-.redessociaisicon{
-    width: 22px;
-    margin-left: 10px;
-    
+.explore{
    
-}
-
-.baner{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-image: url(../imgs/teladelogin/fundo.png);
+    background-repeat: no-repeat;
     
-    padding: 14px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.062);
+    background-position: center center; /* Centraliza horizontal e verticalmente */
+    height: 100vh; 
+
+}
+.Login{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.loginform{
+    background-color: white;
+    min-width: 256px;
+    height: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.loginform input{
+    background-color: rgba(8, 70, 46, 0.84) ;
+    padding-left: 3px;
+    color: var(--branco);
+    min-width: 90%;
+    height: 50px;
+    margin-top: 43px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: -1px 3px 9px 1px rgba(0, 0, 0, 0.623);
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.623);
+}h2{
+    font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
 
-.Impulsione{
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    text-align: center;
-    width: 65%;
-
-}
-.horas {
-    color: #08462E;
-    font-weight: bold; 
-    font-size: 40px;
-}
-.assistente{
-    margin-top: 31px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: var(--verderclaro);
-}
-.divbutton{
-    display: flex;
-    justify-content: center; /* Alinha o conteúdo horizontalmente */
-    align-items: center; /* Alinha o conteúdo verticalmente */
-    text-align: center; /* Alinha o texto ao centro */
-}
-.Experimente{
+button{
     background-color: var(--verdeescuro);
-    color: white;
-    width: 80%;
-    min-height: 43px;
-    padding: 2px;
-    font-size: 16px;
-    border-radius: 13px;
-    align-items: center;
-    margin-top: 10px;
-}
-.Experimente:hover{
-    background-color:#042418
-}
-.Humanizado{
-   
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 5px;
-}
-.iphone{
-    width: 170px;
-    float: left;
-    
-}
-h2{
-    color: #08462E;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    margin-bottom: 11px;
-
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-.naturais{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 5px;
-}
-.smart{
-    width: 300px;
-}
-.apps{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    padding: 15px;
-}
-.WhatsAppdiv{
-    background-color: #ffffff;
-    color: var(--verderclaro);
-    border: solid 1px var(--verdeescuro);
-    box-shadow: -1px 3px 4px 0px #00000085;
+    color: var(--branco);
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+     font-style: normal;
+     letter-spacing: 2px;
+     min-width: 90%;
+    height: 50px;
     border-radius: 5px;
-    margin: 2px;
-    width: 50%;
-    min-height: 100px;
-    text-align: center;
-}
-.WhatsAppdiv h5, h3 {
-    margin: 2px;
-}
-.WhatsAppdiv p{
-    font-size: 13px;
-    color: var(--verdeescuro);
-}
-
-.areas{
-    margin: 15px;
-    text-align: center;
-}
-.card{
-    margin-top: 37px;
-    background-color: var(--verderclaro);
-    color: white;
-    height: 150px;
-    padding: 10px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    box-shadow: -6px 14px 9px 3px rgba(0, 0, 0, 0.685);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.card h3{
-    font-size: 24px;
-}
-.Beneficios{
-    margin: 5px;
+    box-shadow: -1px 3px 9px 1px rgba(0, 0, 0, 0.493);
+    margin-top: 43px;
 
 }
-.empresa{
-    background-color: var(--verderclaro);
-    padding: 7px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: -6px 14px 9px 3px rgba(0, 0, 0, 0.685);
-}
-
-.empresa h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.seta{
-    width: 20px;
-}
-.empresa ul{
-    list-style: disc; 
-    padding-left: 20px;
-    display: none;
-    
-}
-footer{
-    min-height: 55px;
-    background-color:white;
-    display: flex;
-   align-items: center;
-   justify-content: center;
-   box-shadow: -1px -2px 1px rgba(0, 0, 0, 0.322);
-}
-
-}
+ h4{
+    color: var(--verdeclaro);
+ }
